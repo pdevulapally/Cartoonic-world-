@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartoon Universe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="loading-screen">
+        <h1>Loading...</h1>
+    </div>
+
+    <header>
+        <div class="logo">🎨 Cartoon Universe</div>
+        <nav class="desktop-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#cartoons">Cartoons</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="burger-menu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </header>
+
+    <div class="mobile-nav">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#cartoons">Cartoons</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <section id="home" class="home-section">
+        <div class="intro">
+            <h1>Welcome to the Cartoon Universe</h1>
+            <p>Relive your favorite childhood moments and discover new adventures.</p>
+            <button class="explore-btn">Explore Now</button>
+        </div>
+        <div class="scroll-indicator">⬇️ Scroll Down</div>
+    </section>
+
+    <section id="cartoons" class="cartoons-section">
+        <h2>Classic & New Cartoons</h2>
+        <div class="cartoon-grid">
+            <!-- Tom and Jerry Card -->
+            <a href="tom-and-jerry.html" class="cartoon-card">
+                <div class="cartoon-image" style="background-image: url('Images/Tom-and-Jerry-background1.jpg');"></div>
+                <div class="cartoon-info">
+                    <h3>Tom and Jerry</h3>
+                    <p>Join the timeless cat-and-mouse duo in their endless adventures.</p>
+                </div>
+            </a>
+            <!-- Add more cartoon cards as needed -->
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>We bring the best of old and new cartoons to one platform, creating a space where nostalgia meets new adventures.</p>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cartoon Universe. All Rights Reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
